@@ -1,5 +1,7 @@
 # E-commerce Backend ORM (object relational mapping) 
-![site gif](Untitled_%20Jun%2025%2C%202022%209_04%20PM.gif)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)	![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)	![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+
+![site gif](Untitled_%20Jun%2025%2C%202022%209_04%20PM%20(2).gif)
 
 
 ## Table of Contents
@@ -8,13 +10,11 @@
 - [Acceptance Criteria](#acceptance-criteria)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Testing](#testing)
 - [Contributing](#contributing)
-- [Questions](#questions)
-
 
 ## Description
 A mysql database and application backend for an e-commerce site. 
+    Link: https://drive.google.com/file/d/1MqNUOxjTqnWGody5aFyWUdQh1yKxyldC/view
 
 ## User Story 
 ```
@@ -36,3 +36,34 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
+
+## Installation
+`npm init`
+
+`npm install mysql2`
+
+`npm install sequelize`
+
+`npm install dotenv`
+
+## Usage
+
+Run the following command at the root of your project and answer the prompted questions:
+
+`mysql -u root -p`
+
+Enter your password when prompted, then enter the source of the database and then enter quit :
+
+`source db/schema.sql`
+
+`quit`
+
+In gitbash, intiate the program with the following commands: 
+
+`npm run seed`
+  
+`npm start`
+
+## Contributing
+
+Made by Chris Manfredi
